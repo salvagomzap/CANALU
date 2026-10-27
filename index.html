@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANALU</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>PRECIOS - CANALU</h1>
+        <p>Introduce los precios de los cuadros de tu pedido.</p>
+
+        <label for="num_cuadros">Número de cuadros:</label>
+        <input type="number" id="num_cuadros" min="1" value="1">
+
+        <button type="button" id="crear">Introducir precios</button>
+
+        <div id="precios"></div>
+
+        <button type="button" id="calcular" style="display: none;">Calcular precio</button>
+
+        <button type="button" id="limpiar">Limpiar todo</button>
+
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
