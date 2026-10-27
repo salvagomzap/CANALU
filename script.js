@@ -1,4 +1,3 @@
-
 document.getElementById("crear").addEventListener("click", function() {
     let num_cuadros = parseInt(document.getElementById("num_cuadros").value);
     let precios = document.getElementById("precios");
